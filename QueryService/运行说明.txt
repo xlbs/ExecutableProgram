@@ -1,0 +1,7 @@
+使用说明：(JDK1.7环境下运行)
+
+1.开启Redis内存库，端口为：6001（可以自己在config/JedisService.xml中自行配置）
+
+2.在config/hibernate.xml配置数据库信息
+
+3.在当前文件夹下执行cmd命令：java -jar start.jar
